@@ -1,2 +1,186 @@
-# anniversary
-fr my wife
+<<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Happy 1st Anniversary Surprise</title>
+<link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet" />
+<style>
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background: linear-gradient(to bottom right, #ffe0ec, #fff0f5);
+    color: #b30059;
+    text-align: center;
+    overflow-x: hidden;
+  }
+  .section { display: none; padding: 60px 20px; }
+  .active { display: block; }
+  h1 {
+    font-size: 3em;
+    margin-bottom: 10px;
+    font-family: 'Great Vibes', cursive;
+  }
+  p {
+    font-size: 1.3em;
+    max-width: 800px;
+    margin: 20px auto;
+    line-height: 1.8;
+  }
+  button {
+    padding: 10px 25px;
+    font-size: 1.2em;
+    margin-top: 30px;
+    border: none;
+    border-radius: 25px;
+    background-color: #ff66a3;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  button:hover { background-color: #e6558b; }
+  img {
+    width: 300px;
+    border-radius: 10px;
+    box-shadow: 0 0 25px rgba(0,0,0,0.1);
+    margin-top: 30px;
+  }
+  .hearts {
+    font-size: 2em;
+    animation: pulse 1.5s infinite;
+  }
+  @keyframes pulse {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.2); }
+    100% { transform: scale(1); }
+  }
+
+  /* Balloons */
+  #balloon-container {
+    position: relative;
+    width: 100%;
+    max-width: 600px;
+    height: 400px;
+    margin: 0 auto 40px auto;
+    overflow: visible;
+  }
+  .balloon {
+    position: absolute;
+    width: 60px;
+    height: 80px;
+    background: radial-gradient(circle at 30% 30%, #ff66a3, #cc0066);
+    border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(204, 0, 102, 0.7);
+    animation: floatUp 6s ease-in-out infinite;
+    user-select: none;
+    transition: transform 0.3s ease, opacity 0.3s ease;
+  }
+  .balloon:nth-child(odd) {
+    animation-duration: 5s;
+    background: radial-gradient(circle at 30% 30%, #ff99cc, #cc3399);
+  }
+  .balloon:nth-child(even) {
+    animation-duration: 7s;
+    background: radial-gradient(circle at 30% 30%, #ff4d94, #b30059);
+  }
+  @keyframes floatUp {
+    0% { transform: translateY(0); }
+    50% { transform: translateY(-20px); }
+    100% { transform: translateY(0); }
+  }
+</style>
+</head>
+<body>
+
+<!-- Section 1: Balloon popping game -->
+<div class="section active" id="balloonSection">
+  <h1>Pop All The Balloons To See Your Surprise! 🎈🎈🎈</h1>
+  <div id="balloon-container"></div>
+  <p><em>Click on each balloon to pop it!</em></p>
+</div>
+
+<!-- Section 2: Love Letter -->
+<div class="section" id="loveLetterSection">
+  <h1>💌 My Forever Love 💌</h1>
+  <p>
+        You made me believe in love and in us. Even though I know you're mine, you still feel like my biggest crush every single day. 🥺<br><br>
+    I want to hug you so badly and kiss you all over, but sadly, distance separates us for now. Still, our hearts are always connected.<br><br>
+    Words can never fully express how deeply I love you.
+  </p><br>
+  <center><img src="file:///D:/vvip/513861770_1384617515951282_1834625229272679093_n.jpg"></center><br>
+  <center>SEE HOW CUTE YOU ARE! UFFF MY CUTIE PUTIE PIE ❤️</center>
+  <br><br>
+  <button onclick="showSection('storySection')">Continue ➡️</button>
+</div>
+
+<!-- Section 3: Our Story -->
+<div class="section" id="storySection">
+  <h1>📖 Our Little Love Story 📖</h1>
+  <p>
+    I still remember the day when i saw you for the first time in first sight i fell in love with you😳(<b>I am in love with you from class u.k.g!At that time i wasn't knowing what does love means,girlfriend means but yes i saw for first time and i dont know what happened to me</b>)I was actually interested in you from class 3 as i have told you how i fell more and more for you❤️ It has been more than 9 years but still i know how did i felt in the first sight.Anyways i remember how i proposed you and you you reacted🥲You told me"I will tell you in bus"but next you felt akward and isecured and didnt spoke a single word.I understood that you were feeling useasy but its okay .After that you told me "i will tell you in EYE HOSPITAL ANNIVERSARY"but silly me romaing around with AADITYA.LAter on i was regretting abou it🥲.Then i questioned myself "why didnt you ask her on anniversary day?Dont you want to be in relationship with her???"I was encouraging myself to ask you about it.I was fully prepared for next (with full over confidence)But when i saw your face i was like 🤐🥶🙈Then after that i lost my mind and made decision"IF NO AAYU THEN NO MARRIAGE AND NO RELATIONS😤AND I MEANT TO IT. After that months passed i didnt spoke any single word regarding yes or no.THEN we came to NIGHTINGALE SCHOOL there also i was feeling uneasy to ask i was thinking that i might disturbe you.i thought if i will ask these shitty things to you then you might start hating me  and i dont want you to hate me.So i controlled my emotions and didnt asked you about it.I was happy seeing you enjoying with your friends i didnt dared to ask you cuz i didnt want to ruin your mood at that time.CHUPKE CHUPKE SE APKO dekhta tha class me bahar me har jagah(before our relation)Then i heared about you and SAM... when i heard about that i wasnt sure i thought my friends are just telling lie then one day i saw you with him then i knew that it was true.On that very day when i saw you two i was fully broken from inside i went home didnt ateanything went outside to roam around with MD AMAN to ease my heart.I didnt told him about these things i kept smile in my face and roamed around with him broken inside.Mann hudai thyo k garu k garu.Then when i came home i made my mind feel ease i told myself as i have promised myself"HER HAPPINESS IS MY HAPPINESS"with this quote in my mind i once again came to school on next day.In class i didnt told anybody about me.Every single day my life was going like tha slowly i was being cured by staring at you in class secretly without being caught in 4k😁1months passed like that i was slowly being healed but once accidently saw you talking with him at that my heart was crying but i was smiling.Jati heal bhathe tyati feri dekhi grnu prthyo.I just didnt focus in those things.You know at that time i wasnt havin courage to be around you i was feeling like i am just a piece of junk for you. BUT then one ay a cute,beautiful,sexy,hot girl named AAYUSTA gave me a letter expressing about how i misunderstood things then again i wrote the letter back but i didnt told you that i was knowing about you and sameer.Then one day indirectly you told"I LOVE YOU "to me through letter tyo dinn mero whole life ko best day thyo. My happiness was not having any boundries i got my first gift from you which i loved a lot❤️❤️<b>THATS ALL HOW WE STARTED OUR NEW JOURNEY AND I HOPE THIS WONT END HERE!WE ARE FAR BUT OUR HEARTS ARE CLOSE❤️❤️❤️
+  </p>
+  <button onclick="showSection('finalSection')">Continue ➡️</button>
+</div>
+
+<!-- Section 4: Final Surprise -->
+<div class="section" id="finalSection">
+  <h1>🌹 Final Message 🌹</h1>
+  <p>
+    This is just the beginning of our forever. I promise to love you harder,<br>
+    laugh with you louder, and grow with you stronger every year.<br><br>
+    I wanna hug you rn baby i wanna lick you all around like a dog.When will we chat with eachother in personal🥺🥺IM FUCKIN MISSING YOU A LOT 
+LOVE YOU AAYU MORE THAN YOU EXPECT LOVE FROM ME.ONCE AGAIN HAPPY ANNIVERSAR
+  </p>
+<br><h1>some cute pics</h1>
+<br><img src="file:///E:/vvip/513134274_769151172364435_3030840297983950866_n.jpg"><&nbsp><img src="file:///E:/vvip/513244230_1056829233245012_731784086261469704_n.jpg"><&nbsp><img src="file:///E:/vvip/513426894_1199137215293377_6015887354260047097_n.jpg"><&NBSP><img src="file:///E:/vvip/513901643_608969392269768_1194408571213146141_n.jpg"><br>
+<img src="file:///D:/vvip/1.jpg"><&nbsp><img src="file:///D:/vvip/2.png"><&nbsp><img src="file:///D:/vvip/4.jpg">
+  <p class="hearts">❤️ 💕 ❤️ 💕 ❤️</p>
+  <p><strong>Happy 1st Anniversary, my heart.</strong></p>
+  <button onclick="location.reload()">Replay 🎈</button>
+</div>
+
+<script>
+  const balloonContainer = document.getElementById('balloon-container');
+  const totalBalloons = 3;
+  let poppedBalloons = 0;
+
+  function createBalloons() {
+    for (let i = 0; i < totalBalloons; i++) {
+      const balloon = document.createElement('div');
+      balloon.classList.add('balloon');
+      const left = Math.random() * (balloonContainer.clientWidth - 60);
+      const delay = Math.random() * 5;
+      balloon.style.left = left + 'px';
+      balloon.style.animationDelay = delay + 's';
+      balloon.addEventListener('click', () => {
+        if (!balloon.classList.contains('popped')) {
+          balloon.classList.add('popped');
+          balloon.style.transform = 'scale(0)';
+          balloon.style.opacity = '0';
+          poppedBalloons++;
+          if (poppedBalloons === totalBalloons) {
+            setTimeout(() => {
+              showSection('loveLetterSection');
+            }, 500);
+          }
+        }
+      });
+      balloonContainer.appendChild(balloon);
+    }
+  }
+
+  function showSection(id) {
+    document.querySelectorAll('.section').forEach(section => {
+      section.classList.remove('active');
+    });
+    document.getElementById(id).classList.add('active');
+  }
+
+  window.onload = createBalloons;
+</script>
+
+</body>
+</html>
